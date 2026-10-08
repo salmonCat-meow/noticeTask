@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* ========================================================
+   [글로벌 스타일 설정]
+   - 폰트: '맑은 고딕', 'Malgun Gothic', sans-serif 적용
+   - IT 느낌의 시원한 배경색과 부드러운 스크롤 적용
+   ======================================================== */
+body {
+  font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f0f4f9;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* 폼 입력창 공통 기본 스타일 및 포커스 스타일 커스텀 */
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #0f172a;
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.15);
+}
+

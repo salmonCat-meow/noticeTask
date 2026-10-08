@@ -1,0 +1,9 @@
+{
+  "name": "과제 게시판 (Assignment Board)",
+  "description": "당신의 하루에 과제를 더하다 - 과제 등록 및 완료 관리 게시판",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
